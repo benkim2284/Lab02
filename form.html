@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Ben Kim</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <style> 
+    body {
+      background-image: url('images/background.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position-y:-80px;
+      background-size:cover;
+    }
+    </style>
+
+    <body>
+        <form action="results.html" method="get">
+
+            <h1>What Does Your Personality Say About Your Future Home?</h1>
+            <p>Searching for what you want your future home to look like? Look no more, you have come to the right place. Answer these short questions to discover your ideal future home!</p>
+            
+            <div>
+                <label for="fname"><strong>What is your name?</strong></label>
+                <input type="text" id="fname" name="fname" oninvalid="setCustomValidity('Your name will remain confidential')" oninput="this.setCustomValidity('')" required>
+            </div>
+
+            <div>
+                <p><strong>Which of these activites would you mostly willingly partake in?</strong></p>
+                <input type="radio" id="swimming" name="activity" value="swimming">
+                <label for="swimming">Swimming</label>
+                <br>
+                <input type="radio" id="hiking" name="activity" value="hiking">
+                <label for="hiking">Hiking</label>
+                <br>
+                <input type="radio" id="reading" name="activity" value="reading">
+                <label for="reading">Reading</label>
+                <br>
+                <input type="radio" id="cityexploring" name="activity" value="cityexploring">
+                <label for="cityexploring">City exploring</label>
+            </div>
+
+            <div>
+                <br>
+                <label for="indep_or_fam"><strong>Do you consider yourself more:</strong></label>
+                <select name="indep/fam" id="indep_or_fam">
+                    <option value=""></option>
+                    <option value="independent">Independent</option>
+                    <option value="familyoriented">Family-oriented</option>
+                </select>
+            </div>
+            
+            <div>
+                <p><strong>Do you consider yourself an introvert or extrovert?</strong></p>
+                <input type="radio" id="introverted" name="intro/extro" value="introverted">
+                <label for="introverted">Introverted</label>
+                <br>
+                <input type="radio" id="extroverted" name="intro/extro" value="extroverted">
+                <label for="extroverted">Extroverted</label>
+            </div>
+
+            <div>
+                <br>
+                <label for="environment"><strong>Are you comfortable living in an environment that constantly changes?: </strong></label>
+                <select name="change" id="environment">
+                    <option value=""></option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+
+            <div>
+                <p><strong>Which of these following lifestyles do you prefer?</strong></p>
+                <input type="checkbox" id="calm" name="lifestyles" value="calm"> 
+                <label for="calm">Calm</label>
+                <br>
+                <input type="checkbox" id="structured" name="lifestyles" value="structured"> 
+                <label for="structured">Structured</label>
+                <br>
+                <input type="checkbox" id="adventurous" name="lifestyles" value="adventurous"> 
+                <label for="adventurous">Adventurous</label>
+                <br>
+                <input type="checkbox" id="private" name="lifestyles" value="private"> 
+                <label for="private">Private</label>
+            </div>
+
+            <div>
+                <br>
+                <input id="submit-btn" type="submit" value="Submit"> 
+            </div>
+        </form>
+    </body>
+</html>

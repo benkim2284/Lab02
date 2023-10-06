@@ -1,0 +1,88 @@
+form {
+    border: 2px solid #d3d3d3;
+    max-width: 550px;
+    margin: 2rem auto;
+    padding: 2rem;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+#results {
+    border: 3px solid darkgrey;
+    max-width: 550px;
+    margin: 2rem auto;
+    padding: 2rem;
+
+}
+
+
+#submit-btn{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:15px;
+    color:chocolate;
+}
+
+img{
+    width: 150%;
+}
+
+#backtomain{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 5px;
+    font-size: 14px;
+    color:blanchedalmond;
+    text-decoration: none;
+}
+
+#backtomain:hover {
+    text-decoration: underline;
+    box-shadow: 0px 0px 15px;
+}
+
+#result_title{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#housepic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+}
+
+#result_description{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height:30px;
+}
+
+
+#alert {
+    color: white;
+    text-align: center;
+    width: auto;
+    font-size: 40px;
+    
+}
+
+#alert:hover {
+    box-shadow: 0px 0px 15px green;
+}
+
+.closebtn {
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+    margin-right: 20px;
+}
+  
+.closebtn:hover {
+    color: black;
+}
+
+#ad {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
