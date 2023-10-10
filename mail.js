@@ -38,3 +38,8 @@ const getElementVal = (id) => {
   return document.getElementById(id).value;
 };
 
+/*
+SOMEHOW THIS LIN CHNAGES EVERYTHING
+var userInformation = getElementVal("fname");
+export {userInformation};
+*/

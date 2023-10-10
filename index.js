@@ -51,3 +51,12 @@ function postData() {
                         <img id="housepic" src="${image}"></img>
                         <p id="result_description"> <strong>${character2}</strong></p>`;
 }
+
+//I don't know how to impleement the user's data into my results.html website 
+/*
+document.getElementById("resultButton").addEventListener("click", myFunction);
+function myFunction(){
+    const geez = document.getElementById("fname").value;
+    document.getElementById("result_title").innerHTML=geez;
+}
+*/
