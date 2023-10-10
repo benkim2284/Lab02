@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>Ben Kim</title>
         <link rel="stylesheet" type="text/css" href="index.css">
@@ -14,8 +15,7 @@
     </style>
 
     <body>
-        <form action="results.html" method="get">
-
+        <form id="contactForm" action="./results.html" method="get">
             <h1>What Does Your Personality Say About Your Future Home?</h1>
             <p>Searching for what you want your future home to look like? Look no more, you have come to the right place. Answer these short questions to discover your ideal future home!</p>
             
@@ -86,8 +86,11 @@
             <div>
                 <br>
                 <!-- button automatically goes to next page. -->
-                <input id="submit-btn" type="submit" value="Submit"> 
+                <button type="submit" id="submit" value="Submit">Submit</button>
             </div>
         </form>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+        <script src="./mail.js"></script>
+        <script src="./index.js"></script>
     </body>
 </html>
